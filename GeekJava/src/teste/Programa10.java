@@ -6,10 +6,15 @@ public class Programa10 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	int numeros[] = new int[5];
-	
-	
+		int qtd;
+
+		Scanner tc = new Scanner(System.in);
+		System.out.println("Informe quantidade de frutas");
 		
+		qtd = Integer.parseInt(tc.nextLine());
+		
+		
+
 	}
 
 }
