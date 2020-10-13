@@ -7,7 +7,19 @@ public class Cliente {
 	public Cliente(String nome, String endereco) {
 		this.nome=nome;
 		this.endereco=endereco;
-		
+		/**
+		 * TESTE DE COMENTARIO
+		 */
 	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public String getEndereco() {
+		return endereco;
+	}
+	
+	
 
 }

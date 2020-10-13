@@ -7,13 +7,17 @@ public class Ventilador implements IEletronico{
 		
 		if(!this.ligado) 
 			this.ligado=true;
+		System.out.println("Ligado");
 		
 		
 	}
 
 	@Override
 	public void desligar() {
-		// TODO Auto-generated method stub
+		if(this.ligado) {
+			this.ligado = false;
+			System.out.println("Desliguei o aparelho");
+		}
 		
 	}
 
