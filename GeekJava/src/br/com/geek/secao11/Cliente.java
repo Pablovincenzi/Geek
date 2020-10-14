@@ -1,6 +1,6 @@
 package br.com.geek.secao11;
 
-public class Cliente {
+public class Cliente extends Object{
 	String nome;
 	String endereco;
 	
