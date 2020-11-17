@@ -22,9 +22,10 @@ public class Conta {
 		System.out.println("Saldo insuficiente");
 	}}
 	
-	void depositar(float valor) {
-		this.saldo+=valor;
-	}
+	public void depositar(float valor) {
+		synchronized (this) {
+				this.saldo+=valor;
+	}}
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
