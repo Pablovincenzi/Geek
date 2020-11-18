@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Vetor {
 	private Aluno alunos[] = new Aluno[100];
 	private int total = 0;
+	
 
 	// TODO receber um aluno
 	public void adiciona(Aluno aluno) {
